@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+body {
+    background-color: wheat;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+/* fix background image */
+img {
+    size: 10px 50px;
+    padding: 15px;
+}
