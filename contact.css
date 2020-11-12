@@ -23,3 +23,27 @@ img {
     size: 10px 50px;
     padding: 15px;
 }
+
+#contact-form {
+    margin: 50px auto;
+    font-family: helvetica;
+}
+.row {
+    justify-content: center;
+}
+
+.col-sm-6 col-md-6 col-lg-4 {
+   margin left: 20px;
+}
+.col-md-12 {
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 30px;;
+}
+ p.text-muted {
+    margin-top: 50px;;
+    margin-left: -55px;
+    position: fixed;
+} 
+ 
+
