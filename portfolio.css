@@ -14,12 +14,7 @@ body {
     background-color: wheat;
 }
 
-.card {
-    margin-top: 50px;
-}
-
-/* fix background image */
 img {
-    size: 10px 50px;
-    padding: 15px;
+    border: 10px solid  white;
+    margin: 10px;
 }
