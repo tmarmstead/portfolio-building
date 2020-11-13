@@ -41,6 +41,16 @@ img {
     margin-top: 50px;;
     margin-left: -55px;
 } 
+
+h3 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.social-media{
+    margin-top: 30px;
+    text-align: center;
+}
  
 #sticky-footer {
     margin-top: 25%;
