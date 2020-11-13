@@ -40,7 +40,8 @@ img {
  p.text-muted {
     margin-top: 50px;;
     margin-left: -55px;
-    position: fixed;
 } 
  
-
+#sticky-footer {
+    margin-top: 25%;
+}
