@@ -16,6 +16,11 @@ body {
 
 .card {
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    text-align: center;
 }
 
 /* fix background image */
