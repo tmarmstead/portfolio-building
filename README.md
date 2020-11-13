@@ -1,4 +1,4 @@
-# portfolio-building
+# Portfolio-Building
 
 Using Boostrap to build a responsive site to showcase a portfolio 
 
