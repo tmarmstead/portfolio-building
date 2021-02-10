@@ -14,12 +14,35 @@ body {
     background-color: wheat;
 }
 
-.row    {
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+/* fix background image */
+img {
+    size: 10px 50px;
+    padding: 15px;
+}
+
+/* .row    {
     width: 100%;
 }
-img {
+.portfolio-builder-image {
     border: 10px solid  white;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
+    height: 50px;
+    width: 50px;
 }
+
+.img {
+   height: 267px;
+   width: 467px;
+   position: absolute;
+} */

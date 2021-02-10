@@ -53,45 +53,28 @@
     
             <main class="row">
                 <section class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="form-group">
-                        <label for="form_name">First Name</label>
-                        <input id="form_name" type="text" name="name" class="form-control"  required="required" data-error="Firstname is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </section>
-                <section class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="form-group">
-                        <label for="form_lastname">Last Name</label>
-                        <input id="form_lastname" type="text" name="surname" class="form-control"  required="required" data-error="Lastname is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </section>
-            </div>
-            <section class="row">
-                <div class="col-sm-6 md-6 col-lg-4">
-                    <div class="form-group">
-                        <label for="form_email">Email</label>
-                        <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div> 
-                </section>
-            <section class="row">
-                <div class="col-sm-6 col-md-6 col-lg-4">
-                    <div class="form-group">
-                        <label for="form_message">Message</label>
-                        <textarea id="form_message" name="message" class="form-control"  rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </section>
-                <section class="col-md-12">
-                    <input type="submit" class="btn btn-success btn-send" value="Send message">
-                </div>
-            </section>
-                <section class="col-md-12">
-                     <p class="text-muted">
-                        Contact form template by
-                        <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
-            </section>
+                    <div class="container">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label class="mt-4" for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          
+                          <label class="mt-4" for="email">Email</label>
+                          <input type="text" id="email" name="email" placeholder="Your email..">
+                      
+                          <label class="mt-4" for="message">Message</label>
+                          <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+                          <br>
+                          <div class="text-center">
+                              <button type="button">submit</button> 
+                            </div>
+                          
+                      
+                        </form>
+                      </div>
             </main>
     </form> 
     <h3>Find me on Social Media</h3>
