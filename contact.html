@@ -30,7 +30,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <section class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-12">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About</a>
                     </li>
@@ -39,9 +39,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                 </ul>
             </section>
@@ -54,32 +51,34 @@
         <div class="controls">
     
             <main class="row">
-                <section class="col-sm-6 col-md-4 col-lg-3">
+                <section class="col-sm-6 col-md-4 col-lg-2">
                     <div class="container">
                         <form action="action_page.php">
                       
-                          <label for="fname">First Name</label>
+                          <label class="form-title" for="fname">First Name</label>
                           <input type="text" id="fname" name="firstname" placeholder="Your name..">
                       
-                          <label class="mt-4" for="lname">Last Name</label>
+                          <label class="mt-4 form-title" for="lname">Last Name</label>
                           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                          
-                          <label class="mt-4" for="email">Email</label>
-                          <input type="text" id="email" name="email" placeholder="Your email..">
-                      
-                          <label class="mt-4" for="message">Message</label>
-                          <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+
+                          <label class="mt-4 form-title" for="email">Email</label>
+                          <input type="text" id="email" name="email" placeholder="Your last name..">
                           <br>
-                          <div class="text-center">
-                              <button type="button">submit</button> 
-                            </div>
+                      
+                          <label class="mt-4 form-title" for="message">Message</label><br>
+                          <textarea class="message-textarea" id="message" name="message" placeholder="Your message.."></textarea>
+                          <br>
+                          <div style="text-align:center;">
+                            <button>button1</button>
+                           
+                        </div>
                           
                       
                         </form>
                       </div>
             </main>
     </form> 
-    <h3>Find me on Social Media</h3>
+    <h5>Find me on Social Media</h3>
         <p class="social-media">
             <a href="https://www.facebook.com/tina.armstead">Facebook</a><br>
             <a href="https://www.instagram.com/tarmstead/">Instagram</a>
