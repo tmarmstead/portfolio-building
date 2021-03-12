@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 
-.profile-pic {
+.content-a {
     padding: 25px;
     border: 10px solid wheat;
     /* margin-top: 50px;
@@ -11,7 +11,8 @@ body {
 }
 
 .bio {
-    padding: 20px;
+    padding: 25px;
+    border: 10px solid wheat;
 }
 
 .links {
@@ -21,3 +22,8 @@ body {
 .card {
     height: 100%;
 }
+
+/* .plant {
+    margin-left: 120px;
+    margin-top: 50px;
+} */
