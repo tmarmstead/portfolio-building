@@ -1,7 +1,14 @@
-main {
+body {
+    background-color: wheat;
+
+}
+
+
+/* main {
     display: flex;
     justify-content: center;
 }
+
 
 .navbar-brand {
     font-weight: 700;
@@ -12,6 +19,7 @@ main {
 
 body {
     background-color: wheat;
+    margin: 0;
 }
 
 .card {
@@ -19,7 +27,7 @@ body {
 }
 
 /* fix background image */
-img {
+/* img {
     size: 10px 50px;
     padding: 15px;
 }
@@ -54,9 +62,7 @@ h5 {
     margin-right: auto;
 }
  
-#sticky-footer {
-    margin-top: 25%;
-}
+
  
  #email {
      margin-left: 8%;
@@ -84,4 +90,4 @@ h5 {
 
 input {
     margin-left: 8%;
-}
+} */ */
