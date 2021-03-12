@@ -1,11 +1,23 @@
 body {
     background-color: wheat;
-
+    height: 100%;
 }
 
-img {
-    /* padding: 15px; */
-    border: 10px solid white;
+.profile-pic {
+    padding: 25px;
+    border: 10px solid wheat;
     /* margin-top: 50px;
     margin-left: 90px; */
+}
+
+.bio {
+    padding: 20px;
+}
+
+.links {
+    text-align: center;
+}
+
+.card {
+    height: 100%;
 }

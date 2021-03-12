@@ -1,5 +1,9 @@
+html {
+    background-color: wheat;
+}
 body {
     background-color: wheat;
+    height: 100%;
 }
 
 .card {

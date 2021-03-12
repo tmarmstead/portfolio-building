@@ -1,102 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="stylesheet" href="./about.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="./about.css" type="text/css">
 </head>
+
 <body>
 
-    <!-- Nav Bar -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item">
-            <p class="nav-name">Tina Armstead</p>
-          </a>
-    <!-- Hamburger Button -->
-          <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="./about.html">
-              Home
-            </a>
-      
-            <a class="navbar-item" href="./portfolio.html">
-              Portfolio
-            </a>
+  <!-- Nav Bar -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <p class="nav-name">Tina Armstead</p>
+      </a>
+      <!-- Hamburger Button -->
+      <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
 
-            <a class="navbar-item" href="./contact.html">
-              Contact
-            </a>
-          </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="./about.html">
+          Home
+        </a>
 
-        
-    
-            <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <a class="navbar-item" href="./portfolio.html">
+          Portfolio
+        </a>
+
+        <a class="navbar-item" href="./contact.html">
+          Contact
+        </a>
+      </div>
+
+
+
+      <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
               </a> -->
-      
-        </div>
-      </nav>
 
-<!-- Content - Image -->
-    <div class="columns is-mobile">
-        <div class="column is-full-mobile is-two-thirds-tablet is-half-desktop">
-            <img src="./Assets/images/Screenshot (24) - Copy.png" alt="profile photo" class="p-3 mt-6 ml-6 mb-6">
-        </div>
+    </div>
+  </nav>
 
-<!-- Content - About Me Info-->
-        <div class="column is-full-mobile is-two-thirds-tablet is-half-desktop">
+
+
+  <!-- Content - Image -->
+  <div class="columns is-mobile">
+    <div class="column">
+      <div class="card mt-6 ml-6">
+        <div class="card-content">
+          <div class="content">
+            <img class="profile-pic" src="./Assets/images/Screenshot (24) - Copy.png" alt="profile photo" class=" is-centered">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content - About Me Info-->
+
+    <div class="column">
+      <div class="card mt-6 mr-6">
+        <div class="card-content">
+          <div class="content bio">
+            Tina is a musician turned programmer. After studying professional music at Berklee College of music, she
+            began coding in her free time. Learning to code became a fun new adventure for Tina as the mental process
+            very much matches that of learning music. Having enjoyed the process of development, Tina decided to take it further by enrolling in the University of Oregon's Full Stack Bootcamp. She has expanded opon the skills aquired prior to the course and has experience with the following languages and frameworks.
+            <div class="columns">
+              <div class="column is-one-quarter">
+
+              </div>
+              <div class="column is-one-quarter">
+                <ul>
+                  <li class="languages">CSS</li>
+                  <li class="languages">HTML</li>
+                  <li class="languages">Bootstrap</li>
+                  <li class="languages">Javascript</li>
+                  <li class="languages">jQuery</li>
+                  <li class="languages">Node</li>
+                </ul>
+              </div>
+              <div class="column is-one-quarter">
+                <ul>
+                  <li class="languages">Mongo</li>
+                  <li class="languages">Express</li>
+                  <li class="languages">Handlebars</li>
+                  <li class="languages">Mysql</li>
+                  <li class="languages">Sequelize</li>
+                  <li class="languages">Bulma</li>
+                </ul>
+              </div>
+              <div class="column is-one-quarter">
+
+              </div>
+            </div>
+            <br> Having been an avid scrapbooker throughout highschool, Tina is inclined to start a career in web
+            design, and has a great eye for modern and minimalist looks. She has grown to enjoy learning more about back end development and looks forward to growing and gaining more development experience every day.</p>
+            <div class="links">
+              <p class="linkedin"><a href="https://www.linkedin.com/in/tina-armstead-87854498/">View more on
+                  LinkedIn</a></p>
+              <p mb-1><a href="./Assets/Pdf/Resume-TA.pdf" download>Download Resume</a></p>
+              <p class="github"><a href="https://github.com/tmarmstead">View more on
+                Github</a></p>
+                <div>
+                <img class="plant mt-6" src="./Assets/images/Screenshot (148).png" height="400" width="250" alt="plant">
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
+
+
+
+  <!-- <div class="column">
             <div class="card mt-6 mr-6 p-3">
                 <div class="card-content">
-                  <div class="content">
-                    Tina is a musician turned programmer. After studying professional music at Berklee College of music, she began coding in her free time. Learning to code became a fun new adventure for Tina as the mental process very much matches that of learning music. <br><br>Although failry new to the programming world, she has experience in the following languages and frameworks and is well on her way to mastering these languages as well as many others.
-                
-                   <div class="columns is-mobile is-centered">
-                       <div class="column is-one-quarter">
-
-                       </div>
-                       <div class="column is-one-quarter">
-                        <ul>
-                            <li class="languages">CSS</li>
-                            <li class="languages">HTML</li>
-                            <li class="languages">Bootstrap</li>
-                            <li class="languages">Javascript</li>
-                            <li class="languages">jQuery</li>
-                        </ul>
-                       </div>
-                       <div class="column is-one-quarter">
-                        <ul>
-                            <li class="languages">Mongo</li>
-                            <li class="languages">Express</li>
-                            <li class="languages">Handlebars</li>
-                            <li class="languages">Mysql</li>
-                            <li class="languages">Sequelize</li>
-                        </ul>
-                       </div>
-                       <div class="column is-one-quarter">
-
-                       </div>
-                   </div>
-                    <br> Having been an avid scrapbooker throughout highschool, Tina is inclined to start a career in web design, but is also excited to be growing her knowledge of both front and backend development.</p><br>
-                    <p class="linkedin"><a href="https://www.linkedin.com/in/tina-armstead-87854498/">View more on LinkedIn</a></p>
-                <p class="resume"><a href="./Assets/Pdf/Resume-TA.pdf" download>Download Resume</a></p>
-                  </div>
-                </div>
+                  
               </div>
         </div>
         
-      </div>
+      </div> -->
 </body>
+
 </html>

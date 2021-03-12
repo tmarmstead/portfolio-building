@@ -1,9 +1,17 @@
 body {
     background-color: wheat;
+    height: auto;
 
 }
 
+.card {
+    height: 100%;;
+}
 
+footer {
+    background-color: grey;
+    height: auto;
+}
 /* main {
     display: flex;
     justify-content: center;
