@@ -4,10 +4,12 @@ html {
 body {
     background-color: wheat;
     height: 100%;
+    
 }
 
 .card {
     height: 100%;
+    font-family: "Manrope"
 }
 
 .content {
